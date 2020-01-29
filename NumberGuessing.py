@@ -1,7 +1,7 @@
 import random
 r=random.randrange(1,100)
-guess = int(input("Enter your guess between 1 to 100"))
 print("You have five chances")
+guess = int(input("Enter your guess between 1 to 100"))
 for i in range(4):
     if guess>r:
         print("Your guess is too high")
